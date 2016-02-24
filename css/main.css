@@ -2,13 +2,48 @@ body {
     background: #5a595a;
     color: #fff;
     font-family: "brandon-grotesque", sans-serif;
-    font-size: 1.2em;
+    text-align: center;
+
+    font-family: Brandon Grotesque;
+    font-weight: 300;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 img,
-p {
+span {
     display: block;
-    margin: 0 auto 15px;
-    width: 476px;
     max-width: 90%;
-    text-align: right;
+    margin: 0 auto;
+}
+img {
+    width: 238px;
+    border: 1px solid #fff;
+}
+span {
+    width: 350px;
+    text-transform: uppercase;
+}
+img,
+.coming-soon + .coming-soon {
+    margin-bottom: 60px;
+}
+.coming-soon {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+.email {
+    font-size: .75em;
+    line-height: 2.2em;
+    letter-spacing: .3em;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
