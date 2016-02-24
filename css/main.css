@@ -1,0 +1,14 @@
+body {
+    background: #5a595a;
+    color: #fff;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1.2em;
+}
+img,
+p {
+    display: block;
+    margin: 0 auto 15px;
+    width: 476px;
+    max-width: 90%;
+    text-align: right;
+}
