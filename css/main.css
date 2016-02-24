@@ -3,9 +3,6 @@ body {
     color: #fff;
     font-family: "brandon-grotesque", sans-serif;
     text-align: center;
-
-    font-family: Brandon Grotesque;
-    font-weight: 300;
 }
 .flex {
     display: flex;
